@@ -1,0 +1,23 @@
+[
+  {"name": "baseline", "overrides": {}},
+  {"name": "kappa_0p5x", "overrides": {"z_alpha": 0.35}},
+  {"name": "kappa_2x", "overrides": {"z_alpha": 1.4}},
+
+  {"name": "acc_history_0p5x", "overrides": {"alpha_weight_history": 0.481481, "alpha_weight_difficulty": 0.296296, "alpha_weight_early_reject": 0.222222}},
+  {"name": "acc_history_2x", "overrides": {"alpha_weight_history": 0.787879, "alpha_weight_difficulty": 0.121212, "alpha_weight_early_reject": 0.090909}},
+  {"name": "acc_difficulty_0p5x", "overrides": {"alpha_weight_history": 0.722222, "alpha_weight_difficulty": 0.111111, "alpha_weight_early_reject": 0.166667}},
+  {"name": "acc_difficulty_2x", "overrides": {"alpha_weight_history": 0.541667, "alpha_weight_difficulty": 0.333333, "alpha_weight_early_reject": 0.125}},
+  {"name": "acc_early_0p5x", "overrides": {"alpha_weight_history": 0.702703, "alpha_weight_difficulty": 0.216216, "alpha_weight_early_reject": 0.081081}},
+  {"name": "acc_early_2x", "overrides": {"alpha_weight_history": 0.565217, "alpha_weight_difficulty": 0.173913, "alpha_weight_early_reject": 0.26087}},
+
+  {"name": "cmp_mass_0p5x", "overrides": {"cmp_weight_mass": 0.290323, "cmp_weight_saving": 0.322581, "cmp_weight_topk": 0.258065, "cmp_weight_easiness": 0.129032}},
+  {"name": "cmp_mass_2x", "overrides": {"cmp_weight_mass": 0.62069, "cmp_weight_saving": 0.172414, "cmp_weight_topk": 0.137931, "cmp_weight_easiness": 0.068966}},
+  {"name": "cmp_saving_0p5x", "overrides": {"cmp_weight_mass": 0.514286, "cmp_weight_saving": 0.142857, "cmp_weight_topk": 0.228571, "cmp_weight_easiness": 0.114286}},
+  {"name": "cmp_saving_2x", "overrides": {"cmp_weight_mass": 0.36, "cmp_weight_saving": 0.4, "cmp_weight_topk": 0.16, "cmp_weight_easiness": 0.08}},
+  {"name": "cmp_topk_0p5x", "overrides": {"cmp_weight_mass": 0.5, "cmp_weight_saving": 0.277778, "cmp_weight_topk": 0.111111, "cmp_weight_easiness": 0.111111}},
+  {"name": "cmp_topk_2x", "overrides": {"cmp_weight_mass": 0.375, "cmp_weight_saving": 0.208333, "cmp_weight_topk": 0.333333, "cmp_weight_easiness": 0.083333}},
+  {"name": "cmp_easiness_0p5x", "overrides": {"cmp_weight_mass": 0.473684, "cmp_weight_saving": 0.263158, "cmp_weight_topk": 0.210526, "cmp_weight_easiness": 0.052632}},
+  {"name": "cmp_easiness_2x", "overrides": {"cmp_weight_mass": 0.409091, "cmp_weight_saving": 0.227273, "cmp_weight_topk": 0.181818, "cmp_weight_easiness": 0.181818}},
+  {"name": "cmp_threshold_0p5x", "overrides": {"cmp_threshold_penalty": 0.075}},
+  {"name": "cmp_threshold_2x", "overrides": {"cmp_threshold_penalty": 0.3}}
+]

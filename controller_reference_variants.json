@@ -1,0 +1,9 @@
+[
+  {"name": "baseline", "overrides": {}},
+  {"name": "kref_32", "overrides": {"cmp_k_ref": 32.0}},
+  {"name": "kref_128", "overrides": {"cmp_k_ref": 128.0}},
+  {"name": "tau0_0p97", "overrides": {"cmp_tau0": 0.97}},
+  {"name": "tau0_0p99", "overrides": {"cmp_tau0": 0.99}},
+  {"name": "delta_0p01", "overrides": {"cmp_delta_tau": 0.01}},
+  {"name": "delta_0p04", "overrides": {"cmp_delta_tau": 0.04}}
+]
